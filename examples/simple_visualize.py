@@ -31,8 +31,8 @@ def main():
     #       PCL_ERROR ("Couldn't load the file\n");
     #       return (-1);
     #   }
-    # cloud = pcl.load("lamppost.pcd")
-    cloud = pcl.load("Tile_173078_LD_010_017_L22.obj")
+    cloud = pcl.load("lamppost.pcd")
+    #cloud = pcl.load("Tile_173078_LD_010_017_L22.obj")
 
     # pcl::copyPointCloud( *cloud,*cloud_filtered);
     # cloud_filtered = cloud.copyPointCloud()
